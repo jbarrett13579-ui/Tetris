@@ -20,19 +20,20 @@ class ChessBoard:
         self.in_check = False
 
         #giant list of the starting places of each chess piece
+        default_filepath = "D:/Python projects/Games/Chess/"
         self.filepaths = {
-            "blackRook": r"D:/Python projects/Images/Chess/Rooks/blackRook.png",
-            "blackKnight": r"D:/Python projects/Images/Chess/Knights/blackKnight.png",
-            "blackBishop": r"D:/Python projects/Images/Chess/Bishops/blackBishop.png",
-            "blackQueen": r"D:/Python projects/Images/Chess/Queens/blackQueen.png",
-            "blackKing": r"D:/Python projects/Images/Chess/Kings/blackKing.png",
-            "blackPawn": r"D:/Python projects/Images/Chess/Pawns/blackPawn.png",
-            "whitePawn": r"D:/Python projects/Images/Chess/Pawns/whitePawn.png",
-            "whiteRook": r"D:/Python projects/Images/Chess/Rooks/whiteRook.png",
-            "whiteKnight": r"D:/Python projects/Images/Chess/Knights/whiteKnight.png",
-            "whiteBishop": r"D:/Python projects/Images/Chess/Bishops/whiteBishop.png",
-            "whiteQueen": r"D:/Python projects/Images/Chess/Queens/whiteQueen.png",
-            "whiteKing": r"D:/Python projects/Images/Chess/Kings/whiteKing.png",
+            "blackRook": default_filepath + "Rooks/blackRook.png",
+            "blackKnight": default_filepath + " Knights/blackKnight.png",
+            "blackBishop": default_filepath + "Bishops/blackBishop.png",
+            "blackQueen": default_filepath + "Queens/blackQueen.png",
+            "blackKing": default_filepath + "Kings/blackKing.png",
+            "blackPawn": default_filepath + "Pawns/blackPawn.png",
+            "whitePawn": default_filepath + "Pawns/whitePawn.png",
+            "whiteRook": default_filepath + "Rooks/whiteRook.png",
+            "whiteKnight": default_filepath + "Knights/whiteKnight.png",
+            "whiteBishop": default_filepath + "Bishops/whiteBishop.png",
+            "whiteQueen": default_filepath + "Queens/whiteQueen.png",
+            "whiteKing": default_filepath + "Kings/whiteKing.png",
         }
         self.piece_locations = {
             "blackRook1": {"coords": (0,0), "has_moved": False},
