@@ -20,10 +20,10 @@ class ChessBoard:
         self.in_check = False
 
         #giant list of the starting places of each chess piece
-        default_filepath = "D:/Python projects/Games/Chess/"
+        default_filepath = "D:/Python projects/Games/Chess/Images/"
         self.filepaths = {
             "blackRook": default_filepath + "Rooks/blackRook.png",
-            "blackKnight": default_filepath + " Knights/blackKnight.png",
+            "blackKnight": default_filepath + "Knights/blackKnight.png",
             "blackBishop": default_filepath + "Bishops/blackBishop.png",
             "blackQueen": default_filepath + "Queens/blackQueen.png",
             "blackKing": default_filepath + "Kings/blackKing.png",
